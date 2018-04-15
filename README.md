@@ -3,7 +3,8 @@ This Arduino project is a cellphone project that builds off the Adafruit Arduino
 
 arduinomorsephone/arduinophone1.jpg
 
-#Requirements and Materials
+REQUIREMENTS AND MATERIALS
+
 You will need to do a small amount of soldering, but because this program is solely run off of shields there is no need for a breadbord or any complex circuitry. 
 
 All of these parts are available on Adafruit.com. The basic parts needed are: 
@@ -21,7 +22,8 @@ Because the FONA shield has a jack for a headphone buying a microphone and speak
 - Mini Metal Speaker  : https://www.adafruit.com/product/1890
 - Electret Microphone : https://www.adafruit.com/product/1064
 
-#The Build 
+THE BUILD 
+
 The first thing to do is get the FONA shield working. This link is very helpful in getting to know the FONA shield and the locations of the pinouts referred to in the instructions below: https://learn.adafruit.com/adafruit-fona-800-shield/pinouts
 
 This is the only part of the phone that will require soldering. The first thing to do is to solder the stacking headres to the FONA shield, here is a tutorial for soldering headers: https://learn.adafruit.com/adafruit-data-logger-shield/installing-the-headers.
@@ -49,7 +51,7 @@ Here is tutorial to the TFT Resistive Touch Screen: https://learn.adafruit.com/a
 
 Finally the Arduin-o-phone Sketch: https://github.com/adafruit/Arduin_o_phone 
 
-#USAGE 
+USAGE 
 
 Once the code is uploaded to the Arduino, the screen should display a number pad and three buttons at the top saying "CALL" "CLR" "END". By typing in a phone number and pressing call you will be able to make a phone call, given that the speaker and microphone are installed or a pair of headphones are in. 
 
@@ -57,7 +59,7 @@ The battery switch on the FONA shield will allow the phone to become portable.
 
 Currently working on a code to implement more functionality to the phone, specifically to include Morse Code functions with the touch screen. 
 
-#CREDITS 
+CREDITS 
 
 This is all work by user ladyada, the URL is https://github.com/adafruit/Arduin_o_phone
 
