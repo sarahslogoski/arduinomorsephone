@@ -51,16 +51,25 @@ Here is tutorial to the TFT Resistive Touch Screen: https://learn.adafruit.com/a
 
 Finally the Arduin-o-phone Sketch: https://github.com/adafruit/Arduin_o_phone 
 
+If the Arduin-o-phone Sketch works, download the files for morse code in this github. 
+
+arduin_o_phone.ino
+makeText.ino
+morseText.ino	
+printaj.ino
+
 USAGE 
 
-Once the code is uploaded to the Arduino, the screen should display a number pad and three buttons at the top saying "CALL" "CLR" "END". By typing in a phone number and pressing call you will be able to make a phone call, given that the speaker and microphone are installed or a pair of headphones are in. 
+The original Arduin_o_phone code is uploaded to the github and my files are uploaded as well. Currently the morse code files are being worked on, some of the additions I have are a main menu screen that allows the user to go to the calling portion of the program and back to the main menu, and then a text menu that will allow the user to enter a phone number and then continue to the next screen where they can enter morse code which will be translated and sent as an SMS. Because of testing and debugging, the code currently is set to open the text screen when uploaded to test and figure out entering morse code. 
+
+Once the original Arduin_o_phone code is uploaded to the Arduino, the screen should display a number pad and three buttons at the top saying "CALL" "CLR" "END". By typing in a phone number and pressing call you will be able to make a phone call, given that the speaker and microphone are installed or a pair of headphones are in. 
 
 The battery switch on the FONA shield will allow the phone to become portable. 
 
-Currently working on a code to implement more functionality to the phone, specifically to include Morse Code functions with the touch screen. 
+
 
 CREDITS 
 
-This is all work by user ladyada, the URL is https://github.com/adafruit/Arduin_o_phone
+The original Arduin-o-phone sketch is all work by user ladyada, the URL is https://github.com/adafruit/Arduin_o_phone
 
 
